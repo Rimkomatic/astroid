@@ -14,7 +14,7 @@ body{
     position: absolute;
     top:100vh;
     left: 50vw;
-    transform: translateX(-50%) translateY(-100%);
+    transform: translateX(-50%) translateY(-130%) scale(0.8);
     display: flex;
     /* height: 100px; */
     /* width: 100px; */
