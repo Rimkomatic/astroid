@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+/*👉canvas{
+    height: 500px;
+    width: 700px;
+}👈*/
+
+.controller{
+    position: absolute;
+    top:100vh;
+    left: 50vw;
+    transform: translateX(-50%) translateY(-100%);
+    display: flex;
+    /* height: 100px; */
+    /* width: 100px; */
+    /* background-color: aqua; */
+    z-index: 3;
+}
+
+svg {
+    overflow: visible;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+  }
+  
+  #up, #left, #right, #down {
+    transition: .1s;
+    cursor: pointer;
+    transform-origin: center;
+  }
+  
+  #up:active, #left:active, #right:active, #down:active {
+    transform: scale(.975);
+    filter: drop-shadow( 0px 0px 4px green) !important;
+  }
+  
+  
+
+
+/*👉@media screen and (min-width: 600px) {
+    .controller{
+        display: none;
+    }
+  }👈*/
